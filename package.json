@@ -1,0 +1,17 @@
+{
+  "name": "cnnic-rss-feed",
+  "version": "1.0.0",
+  "description": "RSS feed generator for CNNIC news",
+  "main": "cnnic.js",
+  "scripts": {
+    "start": "node cnnic.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "rss": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
